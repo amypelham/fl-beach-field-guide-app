@@ -1,0 +1,42 @@
+html,
+body {
+  height: 80%;
+  text-align: center;
+}
+
+html {
+  font-size: 125%;
+  line-height: 1.4;
+  font-family: Helvetica;
+
+}
+
+body {
+  box-sizing: border-box;
+  margin: 6rem;
+
+  background-image: url('https://i.ibb.co/j6nfM8V/BAHIA-EBFR4-G.webp');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#white-box {
+  background-color: white;
+  padding: 3rem;
+  color: black;
+  height: 100%;
+  border: 2px solid black;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+ }
+
+ img {
+   width: 400px;
+
+ }
+
