@@ -1,5 +1,5 @@
 document.querySelector('button').addEventListener('click', apiRequest)
-
+  
 
 async function apiRequest(){
     const beachName = document.querySelector('input').value
