@@ -1,7 +1,5 @@
-const PORT = process.env.PORT || 3000;
-
 document.querySelector('button').addEventListener('click', apiRequest)
-  
+
 
 async function apiRequest(){
     const beachName = document.querySelector('input').value
@@ -16,12 +14,8 @@ async function apiRequest(){
         document.getElementById('knownFor').innerText = data.knownFor
 
         document.getElementById('beachImage').innerText = data.image
-
+        document.getElementById('beachCaption').innerText = data.caption
     }catch(error) {
         console.log(error)
     }
 }
-
-app.listen(PORT, () => {
-    console.log(`Server is listening on port ${PORT}`);
-  });

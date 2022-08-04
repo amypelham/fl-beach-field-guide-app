@@ -14,8 +14,7 @@ html {
 body {
   box-sizing: border-box;
   margin: 6rem;
-
-  background-image: url('https://i.ibb.co/j6nfM8V/BAHIA-EBFR4-G.webp');
+  background-color: #37d7ff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,10 +32,5 @@ body {
 ul {
   list-style-type: none;
   text-align: left;
- }
-
- img {
-   width: 400px;
-
  }
 
